@@ -1,0 +1,42 @@
+[
+    {
+        "Question": "Which of the following selector matches a particular element only when it lies inside a particular element?",
+        "Option1": "Type selector",
+        "Option2": "Universal selector",
+        "Option3": "Descendent selector",
+        "Option4": "Class selector",
+        "Answer": 3
+    },
+    {
+        "Question": "Which of the following property is used to set the text direction?",
+        "Option1": "justify-content",
+        "Option2": "direction",
+        "Option3": "letter-spacing",
+        "Option4": "align-items",
+        "Answer": 2
+    },
+    {
+        "Question": "Which element is used to represent the transparency of an element in CSS?",
+        "Option1": "Hover",
+        "Option2": "Transparent",
+        "Option3": "Overlay",
+        "Option4": "Opacity",
+        "Answer": 4
+    },
+    {
+        "Question": "Which is the correct CSS syntax?",
+        "Option1": "body {color; black:}",
+        "Option2": "body {color: black;}",
+        "Option3": "body color; black:",
+        "Option4": "body {color= black:}",
+        "Answer": 2
+    }, 
+    {
+        "Question": "Which CSS property controls the text size?",
+        "Option1": "font-weight",
+        "Option2": "text-size",
+        "Option3": "font-size",
+        "Option4": "text-height",
+        "Answer": 3
+    }
+]

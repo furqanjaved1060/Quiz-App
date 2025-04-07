@@ -1,0 +1,42 @@
+[
+    {
+        "Question": "Which of these is an empty tag?",
+        "Option1": "p",
+        "Option2": "img",
+        "Option3": "a",
+        "Option4": "li",
+        "Answer": 2
+    },
+    {
+        "Question": "Which tag is used to define a hyperlink in HTML?",
+        "Option1": "<hyperlink>",
+        "Option2": "<link>",
+        "Option3": "<a>",
+        "Option4": "<href>",
+        "Answer": 3
+    },
+    {
+        "Question": "What is the purpose of the <br> tag",
+        "Option1": "Break line",
+        "Option2": "Bold text",
+        "Option3": "create a list",
+        "Option4": "start a new paragraph",
+        "Answer": 1
+    },
+    {
+        "Question": "How do you add an image to a webpage?",
+        "Option1": "<img src='url'>",
+        "Option2": "<src='url'>",
+        "Option3": "<image='url'>",
+        "Option4": "<media src='url'>",
+        "Answer": 1
+    }, 
+    {
+        "Question": "Which attribute specifies the URL in an <a> tag for linking?",
+        "Option1": "link",
+        "Option2": "src",
+        "Option3": "url",
+        "Option4": "href",
+        "Answer": 4
+    }
+]    

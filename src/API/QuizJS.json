@@ -1,0 +1,42 @@
+[
+    {
+        "Question": "Do you know what will be the output of this code? 'console.log(3>2>1);'",
+        "Option1": "3",
+        "Option2": "true",
+        "Option3": "1",
+        "Option4": "false",
+        "Answer": 2
+    },
+    {
+        "Question": "How many ways are there with which we can declare a variable in javascript?",
+        "Option1": "1",
+        "Option2": "2",
+        "Option3": "3",
+        "Option4": "4",
+        "Answer": 3
+    },
+    {
+        "Question": "Is a variable named 'apple' same as 'Apple' in javascript?",
+        "Option1": "No",
+        "Option2": "Yes",
+        "Option3": "Only when we use 'strict'",
+        "Option4": "None of the above",
+        "Answer": 1
+    },
+    {
+        "Question": "How do you create a function in JavaScript?",
+        "Option1": "function funcName()",
+        "Option2": "let funcName = () =>",
+        "Option3": "function = funcName()",
+        "Option4": "Both A and B",
+        "Answer": 4
+    }, 
+    {
+        "Question": "How do you call a function named 'myFunc'?",
+        "Option1": "call(myFunc)",
+        "Option2": "call myFunc",
+        "Option3": "myFunc()",
+        "Option4": "call myFunc()",
+        "Answer": 3
+    }
+]  

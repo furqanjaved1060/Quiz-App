@@ -1,0 +1,406 @@
+main {
+  max-width: 118rem;
+  height: inherit;
+  margin: auto;
+  background-color: transparent;
+
+  display: grid;
+  grid-template-rows: min-content;
+  row-gap: 8rem;
+  align-content: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #313E51;
+  visibility: hidden;
+}
+
+.logo-container-dark {
+  color: #fff;
+}
+
+.logo-container figure {
+  width: 4rem;
+}
+
+.logo-container figure img {
+  width: 100%;
+}
+
+.toggle-btn-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.toggle-btn {
+  width: 4.8rem;
+  height: 2.8rem;
+  background-color: #a729f5;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toggle-btn-dark {
+  background-color: black;
+}
+
+.toggle-btn::before {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: translateX(.4rem);
+  transition-property: transform;
+  transition-duration: .5s;
+}
+
+.toggle-btn-dark::before {
+  transform: translateX(2.4rem);
+}
+
+.main-container {
+  display: flex;
+  gap: 8rem;
+  padding-bottom: 7rem;
+}
+
+.heading-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+
+.heading-container h1 > span {
+  font-weight: 500;
+}
+
+.heading-container p {
+  font-style: italic;
+}
+
+.quiz-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.quiz-container ul, .quiz-container ol {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.quiz-container li {
+  list-style: none;
+  padding: 1.2rem 1.5rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+  border-radius: 1.2rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  cursor: pointer;
+  transition-property: box-shadow;
+  transition-duration: .3s;
+}
+
+.quiz-container li:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.quiz-container .noliboxshadow:hover{
+  box-shadow: none;
+}
+
+.html-icon {
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+  background-color: #FFF1E9;
+}
+
+.css-icon {
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+  background-color: #E0FDEF;
+}
+
+.javascript-icon {
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+  background-color: #EBF0FF;
+}
+
+.accessibility-icon {
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+  background-color: #F6E7FF;
+}
+
+/* Quiz Page */
+
+.heading-pbar-cont {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+.heading-container-100w {
+  width: 100%;
+}
+
+.progress-bar {
+  width: 30rem;
+  height: 1.5rem;
+  background-color: #f8f8f8;
+  border-radius: 1rem;
+}
+
+.prog {
+  height: inherit;
+  border-radius: inherit;
+  width: 0%;
+  background-color: #00d397;
+}
+
+.quiz-container .right {
+  outline: .1rem solid #00d397;
+  background-color: #dffff2;
+}
+
+.quiz-container .wrong {
+  outline: .1rem solid  #ff4a4a;
+  background-color: #ffebeb; 
+}
+
+.quiz-container ol li:nth-child(1)::before {
+  content: "A";
+}
+.quiz-container ol li:nth-child(2)::before {
+  content: "B";
+}
+.quiz-container ol li:nth-child(3)::before {
+  content: "C";
+}
+.quiz-container ol li:nth-child(4)::before {
+  content: "D";
+}
+
+.bottom-button {
+  font-family: Rubik;
+  padding: 1.2rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #a729f5;
+  border: none;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+
+/* Results Page */
+
+.results-and-button-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  background-color: #fff;
+  padding: 3.2rem;
+  border-radius: 2.4rem;
+}
+
+.results-heading h2 {
+  font-size: 6.4rem;
+  font-weight: 400;
+}
+
+.results-heading span {
+  font-weight: 500;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.top p {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.score {
+  font-size: 14rem;
+  font-weight: 500;
+  color: #313e51;
+}
+
+.body-dark {
+  background-image: url("./assets/images/pattern-background-desktop-dark.svg");
+  background-color: #313E51;
+  color: #fff;
+}
+
+.p-dark {
+  color: #ABC1E1;
+}
+
+.quiz-container .li-dark {
+  background-color: #3B4D66;
+}
+
+.results-and-button-container .results-container-dark {
+  background-color: #3B4D66;
+}
+
+@media only screen and (min-width: 1600px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 2050px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 2350px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    height: auto;
+  }
+  main {
+    margin: 5rem;
+  }
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+  }
+  .progress-bar {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  html {
+    font-size: 6px;
+  }
+  .heading-container {
+    width: 300px;
+  }
+  .heading-pbar-cont {
+    width: 300px;
+  }
+  .quiz-container {
+    width: 300px;
+  }
+  main {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  body {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    row-gap: 5rem;
+  }
+
+  .heading-container {
+    gap: 5rem;
+  }
+
+  .main-container {
+    gap: 5rem;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  main {
+    margin: 5rem auto;
+  }
+}

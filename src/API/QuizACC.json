@@ -1,0 +1,42 @@
+[
+    {
+        "Question": "When was version 1.0 of the Web Content Accessibility Guidelines (WCAG) released?",
+        "Option1": "2008",
+        "Option2": "2005",
+        "Option3": "1995",
+        "Option4": "1999",
+        "Answer": 4
+    },
+    {
+        "Question": "Audio and video captions will mostly benefit?",
+        "Option1": "People with a broken arm",
+        "Option2": "People with hearing loss",
+        "Option3": "People with heavy accent",
+        "Option4": "None of these",
+        "Answer": 2
+    },
+    {
+        "Question": "Examples of landmarks in HTML5 are:",
+        "Option1": "<button>, <a>, <input>",
+        "Option2": "<header>, <main>, <footer>",
+        "Option3": "<h1>, <p>, <blockquote>",
+        "Option4": "<form>, <label>, <input>",
+        "Answer": 2
+    },
+    {
+        "Question": "The fourth principle of the Web Content Accessibility Guidelines (WCAG) is:",
+        "Option1": "Understandable",
+        "Option2": "Predictable",
+        "Option3": "Usable",
+        "Option4": "Robust",
+        "Answer": 4
+    }, 
+    {
+        "Question": "What is the biggest accessibility mistake when using icons in a web page?",
+        "Option1": "Making them too small to click",
+        "Option2": "Animating the icon on hover",
+        "Option3": "Not naming them (with text nor aria-label)",
+        "Option4": "None of these",
+        "Answer": 3
+    }
+]  
