@@ -27,6 +27,5 @@ A responsive and interactive quiz application where users can select a category,
 ![desktop Dark](https://github.com/user-attachments/assets/589bc6af-5b6d-4d85-8343-db737ec7b6fb)
 ![desktop Light](https://github.com/user-attachments/assets/423352ce-4291-40f0-95c2-516725998d22)
 ![mobile Light](https://github.com/user-attachments/assets/5b9dbf74-154a-4b33-b51b-89c7eb1751fc)
-
-
+![mobile Dark](https://github.com/user-attachments/assets/1f973c11-4349-40d3-aa92-d6275b790f21)
 
