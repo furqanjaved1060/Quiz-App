@@ -22,10 +22,11 @@ A responsive and interactive quiz application where users can select a category,
 
 [Check it out on Netlify](https://quizapp465.netlify.app/)
 
-### Screenshot
+## Screenshot
 
-![desktop Light](./screenshots/desktop-light.png "Light mode desktop view")
-![desktop dark](./screenshots/desktop-dark.png "Dark mode desktop view")
-![mobile Dark](./screenshots/mobile-dark.png "dark mode mobile view")
-![mobile light](./screenshots/mobile-light.png "light mode mobile view")
+![desktop Dark](https://github.com/user-attachments/assets/589bc6af-5b6d-4d85-8343-db737ec7b6fb)
+![desktop Light](https://github.com/user-attachments/assets/423352ce-4291-40f0-95c2-516725998d22)
+![mobile Light](https://github.com/user-attachments/assets/206acd5a-200d-4951-ad68-9ccdd2b5a390)
+![mobile Dark](https://github.com/user-attachments/assets/f81ed308-0a64-4482-862a-7bdf195ea841)
+
 
